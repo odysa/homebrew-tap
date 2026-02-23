@@ -1,24 +1,24 @@
 class Portit < Formula
   desc "A minimal TUI for inspecting listening TCP ports and killing processes"
   homepage "https://github.com/odysa/portit"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/odysa/portit/releases/download/v#{version}/portit-aarch64-apple-darwin.tar.gz"
-      sha256 "0242191b78487f4dbeda328e98a1f7cba5de6790ae826900507bde237bde14da"
+      url "https://github.com/odysa/portit/releases/download/v0.1.4/portit-aarch64-apple-darwin.tar.gz"
+      sha256 "8675011c20656f9a1174e575b8c686c4f6ffbc78360279832edac10ce83d668c"
     end
     on_intel do
-      url "https://github.com/odysa/portit/releases/download/v#{version}/portit-x86_64-apple-darwin.tar.gz"
-      sha256 "f4733b2e49ffb2ad5d2564920c4a904fb0ae269832c34a44aec07335e11d8987"
+      url "https://github.com/odysa/portit/releases/download/v0.1.4/portit-x86_64-apple-darwin.tar.gz"
+      sha256 "f369dea8557b3a26a72fc4cf39c152f3ae3d402200888eb8a70692f37d2beeff"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/odysa/portit/releases/download/v#{version}/portit-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4b830e7fae76fd3c30aa5a2e5bbee511765a7346958a440f7c248db296247d7e"
+      url "https://github.com/odysa/portit/releases/download/v0.1.4/portit-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7ad0c31263fcc61dd961a20e919101b349772f96246ea6eb60d29f9f93fdafba"
     end
   end
 
