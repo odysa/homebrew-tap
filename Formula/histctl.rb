@@ -2,7 +2,7 @@ class Histctl < Formula
   desc "Search, browse, and delete browser history from the terminal"
   homepage "https://github.com/odysa/histctl"
   url "https://github.com/odysa/histctl/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  sha256 "bd765c8597a23c9ca7395c15f49007b4b8e48c8a8f3bcb60e01eec61580bdc4f"
 
   depends_on "go" => :build
 
